@@ -23,7 +23,9 @@ transition: fade-out
 ### Full time father / half-time Software Consultant
 
 Development lead in DSM-Firmenich via Xebia
+
 Java/Kotlin/.NET/Angular/React/K8s
+
 Architecture, Design, Automation, cat pics
 
 ---
@@ -93,8 +95,15 @@ jack == upsetJack // ✅ (ᕗ ͠° ਊ ͠° )ᕗ
 ```
 
 ---
+
+# Demo Variables and Immutability 🔒
+
+<img src='./bit.ly_kotlin-gems-masood.svg' width="300px">
+
+---
 layout: two-cols
 ---
+
 # Inline Value Classes 📦
 
 - Primitive Types ... ⚖️📜🚀
@@ -118,6 +127,22 @@ JPA and Hibernate
 OpenApi Docs
 
 ...
+
+<!--
+Primitive: invalid value / convey meaning
+Wrap inside a class: heap allocation / no runtime optimization
+Type Alais: assignment-compatible/ no invalid value restriction
+
+
+
+@operation
+-->
+
+---
+
+# Demo Inline Value Classes 📦
+
+<img src='./bit.ly_kotlin-gems-masood.svg' width="300px">
 
 ---
 layout: two-cols
@@ -161,7 +186,13 @@ val person: Person? = student as? Person
 
 ---
 
-# Delegation in Kotlin 🤝
+# Demo Notes on Null Safety 🙈
+
+<img src='./bit.ly_kotlin-gems-masood.svg' width="300px">
+
+---
+
+# Class Delegation in Kotlin 🤝
 
 ## Class Delegation: Reduce boilerplate
 
@@ -182,10 +213,16 @@ studentExtendedRepository.findAll()
 ```
 
 ---
+
+# Demo Class Delegation in Kotlin 🤝
+
+<img src='./bit.ly_kotlin-gems-masood.svg' width="300px">
+
+---
 layout: two-cols
 ---
 
-# Delegation in Kotlin 🤝
+# Property Delegation in Kotlin 🤝
 
 ## Property Delegation
 
@@ -219,6 +256,11 @@ var delegatedToMember: Int by this::memberInt
 ...
 ```
 
+---
+
+# Demo Property Delegation in Kotlin 🤝
+
+<img src='./bit.ly_kotlin-gems-masood.svg' width="300px">
 
 ---
 
@@ -235,12 +277,24 @@ withConstantNow(foreverNow) {
 
 ---
 
+# Demo Freeze Time with Kotest Extensions
+
+<img src='./bit.ly_kotlin-gems-masood.svg' width="300px">
+
+---
+
 # JSON Assertions for clearer test validations
 
 ```kotlin
 val json = "{"name":"Alice", "land": "Wonderland"}"
 json shouldEqualJson "{"land": "Wonderland", "name":"Alice"}" ✅
 ```
+
+---
+
+# Demo JSON Assertions
+
+<img src='./bit.ly_kotlin-gems-masood.svg' width="300px">
 
 ---
 

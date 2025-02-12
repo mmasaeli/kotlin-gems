@@ -7,7 +7,7 @@ value class StudentId(val id: Int) {
     }
 
     companion object {
-        private fun isValid(id: Int) = id in 1000000L..9999999
+        private fun isValid(id: Int) = id in 1000000..9999999
     }
 }
 
@@ -15,3 +15,8 @@ data class Student (
     val id: StudentId,
     val name: String,
 )
+
+val john = Student(StudentId(1000001), "John")
+john
+
+//val jane = Student(StudentId(2), "Jane")
