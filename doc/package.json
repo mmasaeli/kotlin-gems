@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "format": "slidev format",
+    "export": "slidev export",
+    "screenshot": "slidev export --format png"
+  },
+  "dependencies": {
+    "@slidev/cli": "^51.1.0",
+    "@xebia/slidev-theme-xebia": "^1.4.3",
+    "playwright-chromium": "^1.50.1"
+  }
+}
